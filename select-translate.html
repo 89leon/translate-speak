@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+       
+        <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' 'sha256-B2yPHKaXnvFWtRChIbabYmUBFZdVfKKXHbWtWidDVF8='"> -->
+    <title>Test</title>
+</head>
+
+
+
+<body > 
+    <div  id="app">
+
+    <p>to translate:</p>
+    <select v-model="secondTargetLang" v-on:change="setTargetLanguage" >
+        <option selected disabled value="">Please select one</option>
+        <option v-for="(item,lng) in languages" :value="item">{{lng}}</option>
+    </select> 
+    <script src="vue.js"></script>
+    <script src="popup.js"></script>
+  
+
+   <script>
+
+   </script>
+
+</div>
+</body>
+
+</html>
+
+
+
