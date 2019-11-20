@@ -17,7 +17,7 @@
 "browser_action": {
     "default_icon": "tab-icon.png",
     "default_popup": "select-translate.html",
-    "default_title": "Have a good day"
+    "default_title": "Have a good day!!!"
 },
 
 "permissions": ["tabs","contextMenus","activeTab","storage","tts"],
